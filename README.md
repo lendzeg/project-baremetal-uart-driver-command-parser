@@ -1,5 +1,7 @@
 # 🛠️ Bare-Metal UART Command Parser (STM32F103C8T6)
 ![Project Status](https://img.shields.io/badge/status-in--progress-yellow)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/lendzeg/project-baremetal-uart-driver-command-parser/main)
+
 
 
 This project is a bare-metal implementation of a UART communication driver with a simple command parser, written entirely in C without any external libraries (no HAL, CMSIS, or LL). It is built for the STM32F103C8T6 microcontroller and targets the Blue Pill Development Board.  
@@ -17,3 +19,14 @@ This project is a bare-metal implementation of a UART communication driver with 
 
 
 ---
+
+Hardware components required:
+
+- UART peripheral
+- GPIOs
+- Clock sources
+- Bus interface
+
+![alt text](sys-arch.png)
+
+
